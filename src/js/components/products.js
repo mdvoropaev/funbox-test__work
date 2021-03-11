@@ -129,7 +129,7 @@ onProd.forEach(elem => {
     elem.classList.toggle("selected");
   };
 
-  //функция реализующая поведение активных карточек при наведении курсора и после того как курсор убрали
+  //реализуем поведение активных карточек при наведении курсора и после того как курсор убрали
 
   const mottoDefault = elem.querySelector(".product-card__motto");
   elem.querySelector(".product-card__wrapper").onmouseout = event => {
